@@ -36,7 +36,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/string-base-distances-levenshtein": "github:stdlib-js/string-base-distances-levenshtein#main",
+    "@stdlib/string-base-distances-levenshtein": "^0.0.1",
     "@stdlib/utils-define-read-only-property": "^0.0.8"
   },
   "devDependencies": {
