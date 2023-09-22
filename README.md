@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import distances from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base-distances/tags). For example,
+
+```javascript
 import distances from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances@v0.0.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { levenshteinDistance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances@v0.0.1-deno/mod.js';
+import { levenshteinDistance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances@deno/mod.js';
 ```
 
 #### distances
@@ -93,7 +98,7 @@ The namespace contains the following functions:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances@v0.0.1-deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances@deno/mod.js';
 
 // Calculate the edit distance between two input strings...
 var dist = ns.levenshteinDistance( 'algorithm', 'altruistic' );
