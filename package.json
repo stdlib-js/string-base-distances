@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-base-distances",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Implementations of various string similarity metrics.",
   "license": "Apache-2.0",
   "author": {
