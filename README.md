@@ -35,38 +35,30 @@ limitations under the License.
 
 > Implementations of various string similarity metrics.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/string-base-distances
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-distances = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var distances = require( 'path/to/vendor/umd/string-base-distances/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.distances;
-})();
-</script>
+var distances = require( '@stdlib/string-base-distances' );
 ```
 
 #### distances
@@ -110,22 +102,12 @@ The namespace contains the following functions:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var ns = require( '@stdlib/string-base-distances' );
 
 // Calculate the edit distance between two input strings...
 var dist = ns.levenshteinDistance( 'algorithm', 'altruistic' );
 // returns 6
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -179,8 +161,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/string-base-distances.svg
 [npm-url]: https://npmjs.org/package/@stdlib/string-base-distances
 
-[test-image]: https://github.com/stdlib-js/string-base-distances/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/string-base-distances/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/string-base-distances/actions/workflows/test.yml/badge.svg?branch=v0.1.1
+[test-url]: https://github.com/stdlib-js/string-base-distances/actions/workflows/test.yml?query=branch:v0.1.1
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/string-base-distances/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/string-base-distances?branch=main
@@ -211,7 +193,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/string/base/distances/levenshtein]: https://github.com/stdlib-js/string-base-distances-levenshtein/tree/umd
+[@stdlib/string/base/distances/levenshtein]: https://github.com/stdlib-js/string-base-distances-levenshtein
 
 <!-- </toc-links> -->
 
