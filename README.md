@@ -76,6 +76,7 @@ The namespace contains the following functions:
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`hammingDistance( s1, s2 )`][@stdlib/string/base/distances/hamming]</span><span class="delimiter">: </span><span class="description">calculate the Hamming distance between two equal-length strings.</span>
 -   <span class="signature">[`levenshteinDistance( s1, s2 )`][@stdlib/string/base/distances/levenshtein]</span><span class="delimiter">: </span><span class="description">calculate the Levenshtein (edit) distance between two strings.</span>
 
 </div>
@@ -192,6 +193,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/string-base-distances/main/LICENSE
 
 <!-- <toc-links> -->
+
+[@stdlib/string/base/distances/hamming]: https://github.com/stdlib-js/string-base-distances-hamming
 
 [@stdlib/string/base/distances/levenshtein]: https://github.com/stdlib-js/string-base-distances-levenshtein
 
