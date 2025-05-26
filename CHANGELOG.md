@@ -2,16 +2,6 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
-
-## Unreleased (2024-12-01)
-
-No changes reported for this release.
-
-</section>
-
-<!-- /.release -->
-
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-28)
@@ -36,72 +26,17 @@ No changes reported for this release.
 
 ## 0.2.0 (2024-02-14)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="string-base-distances-v0.2.0">
-
-#### [@stdlib/string/base/distances](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/distances)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`68413e0`](https://github.com/stdlib-js/stdlib/commit/68413e05376206b18c4ff8662a8568a189dad77e) - update namespace TypeScript declarations [(#1221)](https://github.com/stdlib-js/stdlib/pull/1221)
 -   [`b1e4cca`](https://github.com/stdlib-js/stdlib/commit/b1e4cca30147188064b2275a0242a0334befbcd1) - update namespace exports
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="string-base-distances-hamming-v0.2.0">
-
-#### [@stdlib/string/base/distances/hamming](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/distances/hamming)
-
-<details>
-
-<section class="features">
-
-##### Features
-
 -   [`165ab63`](https://github.com/stdlib-js/stdlib/commit/165ab63d2f841d54753be8572f7db06be878dfbb) - add `string/base/distances/hamming` (#1166) [(#1166)](https://github.com/stdlib-js/stdlib/pull/1166)
 
 </section>
 
 <!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 3 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
--   Robert Gislason
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -121,6 +56,20 @@ A total of 3 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 3 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+-   Robert Gislason
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -150,19 +99,9 @@ No changes reported for this release.
 
 ## 0.0.1 (2023-09-22)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="string-base-distances-v0.0.1">
-
-#### [@stdlib/string/base/distances](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/distances)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
 -   [`810ebc1`](https://github.com/stdlib-js/stdlib/commit/810ebc1b4d4b5eaf023f5281774e54db733bb4e0) - update namespace TypeScript declarations [(#1047)](https://github.com/stdlib-js/stdlib/pull/1047)
@@ -175,59 +114,6 @@ No changes reported for this release.
 
 <section class="breaking-changes">
 
-##### BREAKING CHANGES
-
--   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="string-base-distances-levenshtein-v0.0.1">
-
-#### [@stdlib/string/base/distances/levenshtein](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/string/base/distances/levenshtein)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
--   [`c40a139`](https://github.com/stdlib-js/stdlib/commit/c40a1396adb204bf1f9c6d550d99884a8004b424) - add `string/base/distances/levenshtein` [(#1030)](https://github.com/stdlib-js/stdlib/pull/1030 )
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
-
-<section class="breaking-changes">
-
 ### BREAKING CHANGES
 
 -   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
@@ -235,21 +121,6 @@ No changes reported for this release.
 </section>
 
 <!-- /.breaking-changes -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 4 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Naresh Jagadeesan
--   Philipp Burckhardt
--   Planeshifter
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -276,6 +147,21 @@ A total of 4 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 4 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Naresh Jagadeesan
+-   Philipp Burckhardt
+-   Planeshifter
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
