@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import distances from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances@deno/mod.js';
+import distances from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances@v0.2.3-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { hammingDistance, levenshteinDistance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances@deno/mod.js';
+import { hammingDistance, levenshteinDistance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances@v0.2.3-deno/mod.js';
 ```
 
 #### distances
@@ -94,7 +94,7 @@ The namespace contains the following functions:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances@v0.2.3-deno/mod.js';
 
 // Calculate the edit distance between two input strings...
 var dist = ns.levenshteinDistance( 'algorithm', 'altruistic' );
