@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import distances from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base-distances/tags). For example,
+
+```javascript
 import distances from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances@v0.2.3-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { hammingDistance, levenshteinDistance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances@v0.2.3-esm/index.mjs';
+import { hammingDistance, levenshteinDistance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances@esm/index.mjs';
 ```
 
 #### distances
@@ -99,7 +104,7 @@ The namespace contains the following functions:
 <body>
 <script type="module">
 
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances@v0.2.3-esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances@esm/index.mjs';
 
 // Calculate the edit distance between two input strings...
 var dist = ns.levenshteinDistance( 'algorithm', 'altruistic' );
